@@ -1,0 +1,6 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  Test1:
+    Type: AWS::Cloud9::EnvironmentEC2
+    Properties:
+      InstanceType: t2.micro
